@@ -50,7 +50,7 @@ rightSide.display();
 
 function keyPressed(){
 	if(keyCode===UP_ARROW){
-matter.Body.applyForce(paper.body,paper.body.position,{x:15,y:-15})
+Matter.Body.applyForce(paper.body,paper.body.position,{x:9,y:-7})
 
 	}
 }
